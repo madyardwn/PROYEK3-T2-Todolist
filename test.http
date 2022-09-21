@@ -5,15 +5,16 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "description": "hello"
+    "description": "hapus"
 }
 
-PUT http://localhost:5000/632b1659fd930be1d347e6e0
+PUT http://localhost:5000/632b225eb3baf862b8cf83b0
 Content-Type: application/json
 Accept: application/json
 
 {
-  "description" : "Masyarakat"
+  "description" : "Diedit"
 }
 
-DELETE http://localhost:5000/
+DELETE http://localhost:5000/632b225eb3baf862b8cf83b0
+

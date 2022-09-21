@@ -3,16 +3,19 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
+require("dotenv").config();
 
 const TodoTasks = require("./models/schemaTodoList");
 const app = express();
+
+const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(morgan("tiny"));
 app.use(bodyParser.json());
 
 mongoose
-  .connect("mongodb://localhost:27017/todoList", {
+  .connect(process.env.DB_CONNECT, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
@@ -74,4 +77,4 @@ app.put("/:id", async (req, res) => {
   }
 });
 
-app.listen(5000, () => console.log("Server running on port 5000"));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
