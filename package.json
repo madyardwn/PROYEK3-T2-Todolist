@@ -1,32 +1,28 @@
 {
   "dependencies": {
-    "dotenv": "^16.0.2",
-    "express": "^4.18.1"
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0"
   },
-  "name": "todolist-app",
+  "name": "todolist",
   "version": "1.0.0",
-  "description": "Aplikasi todolist (Tugas Proyek 3)",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index"
+    "start": "nodemon server --ignore 'client/'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madyardwn/Todolist.git"
   },
-  "keywords": [
-    "Express",
-    "Mongodb",
-    "HTML",
-    "CSS",
-    "Javascript"
-  ],
-  "author": "Achmadya Ridwan Ilyawan, Wildan Setya Nugraha",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/madyardwn/Todolist/issues"
   },
-  "homepage": "https://github.com/madyardwn/Todolist#readme"
+  "homepage": "https://github.com/madyardwn/Todolist#readme",
+  "description": ""
 }
