@@ -52,5 +52,5 @@ npm run dev
 
 ## ⭐ Credits
 
-- Achmadya Ridwan Ilyawan   - 211511001
-- Wildan Setya Nugraha      - 211511032
+- Achmadya Ridwan Ilyawan   - 211511001 (Backend)
+- Wildan Setya Nugraha      - 211511032 (Frontend)
