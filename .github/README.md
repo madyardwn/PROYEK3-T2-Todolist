@@ -41,7 +41,7 @@ cd Todolist
 #### Install module untuk server
 
 ```
-npm run install
+npm install
 ```
 
 #### Install module untuk client
