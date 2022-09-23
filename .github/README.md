@@ -50,7 +50,7 @@ npm install && npm install --prefix client
 npm run dev
 ```
 
-## ⭐ Credits
+## ⭐ Contributor
 
 - Achmadya Ridwan Ilyawan   - 211511001 (Backend)
 - Wildan Setya Nugraha      - 211511032 (Frontend)
