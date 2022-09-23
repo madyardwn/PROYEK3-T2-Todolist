@@ -47,7 +47,7 @@ npm install
 #### Install module untuk client
 
 ```
-npm run client
+npm install client --prefix client
 ```
 
 #### Run
