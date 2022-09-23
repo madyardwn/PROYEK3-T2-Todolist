@@ -32,7 +32,7 @@ Todolist adalah aplikasi pencatatan kegiatan.
 git clone https://github.com/madyardwn/Todolist.git
 ```
 
-#### Clone repository
+#### Go to repository
 
 ```
 cd Todolist
