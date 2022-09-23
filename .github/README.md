@@ -38,16 +38,10 @@ git clone https://github.com/madyardwn/Todolist.git
 cd Todolist
 ```
 
-#### Install module untuk server
+#### Install module untuk server dan client
 
 ```
-npm install
-```
-
-#### Install module untuk client
-
-```
-npm install client --prefix client
+npm install && npm install --prefix client
 ```
 
 #### Run
