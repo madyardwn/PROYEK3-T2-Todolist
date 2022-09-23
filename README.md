@@ -32,6 +32,12 @@ Todolist adalah aplikasi pencatatan kegiatan.
 git clone https://github.com/madyardwn/Todolist.git
 ```
 
+#### Clone repository
+
+```
+cd Todolist
+```
+
 #### Install module untuk server
 
 ```
